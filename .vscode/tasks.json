@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "type": "shell",
+      "command": "g++ -std=c++17 -g ${fileBasename} Camera.cpp Mesh.cpp ShaderProgram.cpp Texture2D.cpp -o ${fileBasenameNoExtension} -lglfw -lGLEW -lGL",
+      "options": { "cwd": "${workspaceFolder}" },
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
