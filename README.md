@@ -1,6 +1,6 @@
 # Devoir OpenGL - scène de nuit
 
-Auteur : Akrame CHAKOUK
+Auteur : Akrame  CHAKOUK
 
 Projet du cours « Introduction to Modern OpenGL » (C++17, OpenGL 3.3, GLFW, GLEW, GLM).
 
